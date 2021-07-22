@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Avenir Next Cyr";
+  src: url("AvenirNextCyr-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir Next Cyr";
+  src: url("AvenirNextCyr-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir Next Cyr";
+  src: url("AvenirNextCyr-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
