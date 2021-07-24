@@ -1,11 +1,11 @@
 import Vue from "vue";
 import Vuex from "vuex";
+import medcines from "./medicines";
 
 Vue.use(Vuex);
 
 export default new Vuex.Store({
-  state: {},
-  mutations: {},
-  actions: {},
-  modules: {},
+  modules: {
+    medcines,
+  },
 });
