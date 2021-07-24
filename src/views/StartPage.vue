@@ -8,7 +8,9 @@
           <p>ФАРМАЦЕВТУ</p>
         </h1>
       </div>
-      <router-link class="start-btn" to="/gamePage">Начать</router-link>
+      <router-link class="start-btn" :to="{ name: 'gamePage' }">
+        Начать
+      </router-link>
     </div>
   </div>
 </template>
@@ -37,7 +39,6 @@ export default {
     position: absolute;
     top: 0;
     left: 0;
-    background: transparent;
     background: linear-gradient(63.53deg, #2d8550 16.62%, #5e6ec2 83.38%);
     opacity: 0.35;
   }
