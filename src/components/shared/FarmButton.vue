@@ -1,18 +1,10 @@
 <template>
-  <aside class="aside-wrap">
-    <nav>
-      <ul>
-        <li></li>
-        <li></li>
-      </ul>
-    </nav>
-    <div></div>
-  </aside>
+  <button />
 </template>
 
 <script>
 export default {
-  name: "FarmAside",
+  name: "FarmButton",
 };
 </script>
 

@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,11 +7,9 @@
 *:focus {
   outline: none;
 }
-
-// body {
-//   background-color: #111111;
-//   color: #fff;
-// }
+body {
+  font-family: "Avenir Next Cyr", Helvetica, Arial, sans-serif;
+}
 
 ul {
   list-style: none;

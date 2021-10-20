@@ -48,10 +48,6 @@ const actions = {
 };
 
 const getters = {
-  // sadMed: ({ medicine: { sad } }) => sad,
-  // happyMed: ({ medicine: { happy } }) => happy,
-  // heartMed: ({ medicine: { heart } }) => heart,
-  // count: ({ medicine: { count } }) => count,
   medicine: ({ medicine }) => medicine,
 };
 

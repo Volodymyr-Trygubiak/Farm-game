@@ -2,13 +2,18 @@
   <div class="main">
     <div class="main-bg">
       <div class="main-text-wrap">
-        <h4 class="main-text">Добро пожаловать в игру</h4>
+        <h4 class="main-text">
+          Добро пожаловать в игру
+        </h4>
         <h1 class="main-title">
-          Помоги <br />
+          Помоги <br>
           <p>ФАРМАЦЕВТУ</p>
         </h1>
       </div>
-      <router-link class="start-btn" :to="{ name: 'gamePage' }">
+      <router-link
+        class="start-btn"
+        :to="{ name: 'gamePage' }"
+      >
         Начать
       </router-link>
     </div>
@@ -91,6 +96,7 @@ export default {
     background-color: #fff;
     border-radius: 100px;
     text-decoration: none;
+    cursor: pointer;
   }
 }
 </style>

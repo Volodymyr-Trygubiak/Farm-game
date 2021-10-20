@@ -2,30 +2,52 @@
   <aside class="aside-wrap">
     <nav class="aside-top">
       <ul class="aside-list">
-        <router-link class="aside-link" :to="{ name: 'startPage' }"
-          ><img src="../assets/icons/Home.png" alt=""
-        /></router-link>
+        <router-link
+          class="aside-link"
+          :to="{ name: 'startPage' }"
+        >
+          <img
+            src="../assets/icons/Home.png"
+            alt=""
+          >
+        </router-link>
+
         <router-link
           class="aside-link"
           :to="{ name: 'gamePage' }"
           @click.native="$router.go()"
-          ><img src="../assets/icons/Home.png" alt=""
-        /></router-link>
+        >
+          <img
+            src="../assets/icons/Home.png"
+            alt=""
+          >
+        </router-link>
       </ul>
     </nav>
     <div class="aside-main">
-      <h3 class="aside-info">Параметри:</h3>
+      <h3 class="aside-info">
+        Параметри:
+      </h3>
       <div class="aside-groupe">
         <div class="aside-item">
-          <img src="../assets/icons/Sadly_icon.png" alt="" />
+          <img
+            src="../assets/icons/Sadly_icon.png"
+            alt=""
+          >
           <span class="count">{{ medicine.sad }}</span>
         </div>
         <div class="aside-item">
-          <img src="../assets/icons/Happy_icon.png" alt="" />
+          <img
+            src="../assets/icons/Happy_icon.png"
+            alt=""
+          >
           <span class="count">{{ medicine.happy }}</span>
         </div>
         <div class="aside-item">
-          <img src="../assets/icons/heart_icon.png" alt="" />
+          <img
+            src="../assets/icons/heart_icon.png"
+            alt=""
+          >
           <span class="count">{{ medicine.heart }}</span>
         </div>
       </div>
@@ -33,8 +55,7 @@
     <div class="aside-bottom">
       <p>Осталось в очереди:</p>
       <p>
-        <strong>{{ medicine.count }}</strong
-        >/15
+        <strong>{{ medicine.count }}</strong>/15
       </p>
     </div>
   </aside>
